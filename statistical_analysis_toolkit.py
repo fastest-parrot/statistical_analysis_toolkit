@@ -25,6 +25,8 @@ def strength_of_evidence(p_value, alpha=0.05):
 
 # In[ ]:
 
+def critical_t(alpha, df):
+    return stats.t.ppf(1 - (alpha / 2), df=df)
 
 def analyze_distribution(data, alpha=0.05, h0=0.0, color='b', is_log_data=False):
     #calc confidence level
@@ -39,7 +41,7 @@ def analyze_distribution(data, alpha=0.05, h0=0.0, color='b', is_log_data=False)
      
     df = len(all_values) - len(data.columns) #degrees of freedom = number of observations - number of classes
     
-    t_stat = stats.t.ppf(1-(alpha/2),df=df)
+    t_stat = critical_t(alpha, df) #get critical value(s)
     
     #plotting stuff
     hist_fig, hist_ax = plt.subplots(len(data.columns), 1, sharex=True)
@@ -148,6 +150,7 @@ def analyze_distribution(data, alpha=0.05, h0=0.0, color='b', is_log_data=False)
     
     p_perm, t_perm, diff = perm_test(data, h0, mean, 1000, len(all_values), chunk_size)
     p_value = 2.0*(1 - stats.t.cdf(observed_t, df=df))
+    #TODO: recalc CL based on 1-sided vs 2 sided
     pooled_summary = pd.DataFrame.from_dict(
         {
             'summary_type': 'POOLED',
