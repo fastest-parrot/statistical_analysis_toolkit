@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02e0fe7f-4acc-4586-8557-326c3e419fa8" name="Default Changelist" comment="">
+    <list default="true" id="37ee8ba8-2f9b-440b-8dbc-2b0b5197e905" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/statistical_analysis_toolkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/statistical_analysis_toolkit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statistical_analysis_toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistical_analysis_toolkit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toolkit_sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/toolkit_sample.ipynb" afterDir="false" />
     </list>
@@ -12,19 +14,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/statistical_analysis_toolkit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="152" column="48" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toolkit_sample.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/statistical_analysis_toolkit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#50#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -46,16 +51,17 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -67,12 +73,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -117,27 +126,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02e0fe7f-4acc-4586-8557-326c3e419fa8" name="Default Changelist" comment="" />
+      <changelist id="37ee8ba8-2f9b-440b-8dbc-2b0b5197e905" name="Default Changelist" comment="" />
       <created>1559158489896</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559158489896</updated>
       <workItem from="1559158491072" duration="616000" />
       <workItem from="1559582981785" duration="1204000" />
+      <workItem from="1560601049799" duration="72000" />
+      <workItem from="1560606805119" duration="850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1820000" />
+    <option name="totallyTimeSpent" value="6493000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1918" height="1080" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="965" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25511304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Jupyter" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -151,12 +161,15 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32911393" />
-      <window_info anchor="right" x="0" y="0" width="429" height="880" id="Documentation" side_tool="true" weight="0.32992464" />
+      <window_info active="true" anchor="bottom" id="Jupyter" order="13" visible="true" weight="0.32875144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="429" height="880" id="Documentation" order="5" side_tool="true" visible="true" weight="0.32967034" />
+      <window_info anchor="right" id="R Graphics" order="6" />
+      <window_info anchor="right" id="R Packages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,8 +181,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statistical_analysis_toolkit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="152" column="48" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
+        <state relative-caret-position="226">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#50#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

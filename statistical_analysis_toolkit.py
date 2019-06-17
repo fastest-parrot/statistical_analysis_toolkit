@@ -28,6 +28,18 @@ def strength_of_evidence(p_value, alpha=0.05):
 def critical_t(alpha, df):
     return stats.t.ppf(1 - (alpha / 2), df=df)
 
+def critical_norm(alpha):
+    return stats.norm.ppf(1 - (alpha / 2))
+
+def critical_binomial(alpha):
+    return stats.binom.ppf(1 - (alpha / 2))
+
+def p_value_from_t(observed_t, df, sides=2.0):
+    return sides * (1 - stats.norm.cdf(observed_t))
+
+def p_value_from_binomial(observed_t, df, sides=2.0):
+    return sides * (1 - stats.binom.cdf(observed_t))
+
 def analyze_distribution(data, alpha=0.05, h0=0.0, color='b', is_log_data=False):
     #calc confidence level
     cl = 1-alpha
